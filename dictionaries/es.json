@@ -1,6 +1,15 @@
 {
-  "products": {
-    "cart": "Añadir a carrito"
+  "homeMetadata": {
+    "title": "Listado de personajes - HarryPotterApp",
+    "description": "Explora el universo mágico de Harry Potter: un listado completo de personajes con su casa, especie y datos principales."
   },
-  "title": "Mi Tienda"
+  "detailMetadata": {
+    "title1": "Detalle de ",
+    "title2": " - HarryPotterApp",
+    "description": "Consulta información detallada de cada personaje del mundo mágico: casa, actor/actriz, varita, especie, ascendencia y otros datos relevantes"
+  },
+  "footer": {
+    "copyright": "© 2026 Harry Potter App. Todos los derechos reservados.",
+    "developed": "Desarrollado para: ISIS3710"
+  }
 }
