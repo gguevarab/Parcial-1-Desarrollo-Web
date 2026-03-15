@@ -20,6 +20,7 @@ export interface Character {
 }
 
 const API_URL = "https://hp-api.onrender.com/api/characters";
+const API_CHARACTER = "https://hp-api.onrender.com/api/character/";
 
 export const useFetchCharacters = () => {
     const [characters, setCharacters] = useState<Character[]>([]);
@@ -46,9 +47,10 @@ export const useFetchCharacters = () => {
     return { characters, loading, error };
 }
 
+// This was the easiest way to do it. Or at least this is the way I'm used to do it.
 export const useFetchCharacter = (name: string) => {
     const { characters, loading, error } = useFetchCharacters();
-    const character = characters.find((character) => character.name === decodeURIComponent(name));
+    const character = characters.find((c) => c.name === decodeURIComponent(name));
     return { character, loading, error };
 }
 

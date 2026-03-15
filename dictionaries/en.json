@@ -8,6 +8,15 @@
     "title2": " Detail - HarryPotterApp",
     "description": "Consult detailed information about each character from the magical world: house, actor/actress, wand, species, ancestry and other relevant data"
   },
+  "characterSpecs": {
+    "house": "House:",
+    "gender": "Gender:",
+    "wand": "Wand:",
+    "wood": "Wood:",
+    "length": "Length:",
+    "unknown": "Unknown",
+    "unknown_fem": "Unknown"
+  },
   "footer": {
     "copyright": "© 2026 Harry Potter App. All rights reserved.",
     "developed": "Developed for: ISIS3710"

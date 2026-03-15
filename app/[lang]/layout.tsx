@@ -20,8 +20,8 @@ export default async function RootLayout({
 
   return (
     <html lang={lang}>
-      <body>
-        <Header />
+      <body className="bg-[#e0e0e0] flex flex-col min-h-screen m-0 p-0 font-sans">
+        <Header lang={lang} />
         <main>
           {children}
         </main>
